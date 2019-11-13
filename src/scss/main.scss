@@ -1,0 +1,297 @@
+body {
+  background: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Dancing+Script&display=swap');
+
+.header {
+  padding: 20px 0;
+}
+
+.txt-logo {
+  font-family: 'Dancing Script', cursive;
+  color:#ffffff;
+  > a {
+    color:#ffffff;
+    text-decoration: none;
+  }
+}
+
+.banner {
+  img {
+    width: 100%;
+  }
+}
+
+.pic-head {
+  font-family: 'Anton', sans-serif;
+  text-align: left;
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.pic-box {
+  a {
+    text-decoration: none;
+  }
+}
+
+.pic-show {
+  position: relative;
+  cursor: pointer;
+  padding: 4px;
+  background: #ffffff;
+  display: inline-block;
+  &.-style-1 {
+    text-align: center;
+    background: none;
+  }
+}
+
+.pic-show {
+  img {
+    width: 100%;
+  }
+}
+
+.fave-icon {
+  cursor: pointer;
+  width: 24px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.pic-title {
+  color: #ffffff;
+  margin-top: 4px;
+  line-height: 1.4em;
+  font-size: 16px;
+  &.-style-1 {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 14px;
+  }
+}
+
+.pic-sect {
+  &.-sect-style1 {
+    margin-top: 20px;
+  }
+}
+
+.pic-sect {
+  &.-sect-style2 {
+    margin-top: 20px;
+  }
+}
+
+.pic-manage {
+  text-align: right;
+
+  > a {
+    font-family: tahoma;
+    font-size: 14px;
+    color: orange;
+  }
+
+}
+
+.thumbnail-group {
+  margin-top: 14px;
+  &.-style-1 {
+    margin-top: 4px;
+    margin-bottom: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+}
+
+.thumbnail-group .pic-show {
+  margin-top: 40px;
+}
+
+.label-txt {
+  color: #ffffff;
+}
+
+.search-letter {
+  font-family: 'Anton', sans-serif;
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  text-align: center;
+  li {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    a {
+      color: orange;
+      text-decoration: none;
+    }
+  }
+}
+
+.Footer {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #ffffff;
+  padding: 10px 0;
+  span {
+    font-size: 14px;
+    color: #ffffff;
+  }
+}
+
+.filter-serch {
+  margin-top: 36px;
+}
+
+.filter-txt {
+  padding: 12px 6px;
+  border: 1px solid #ffffff;
+  height: 24px;
+}
+
+.select-list {
+  margin-top: 15px;
+  padding: 2px 4px;
+}
+
+.search-head {
+  font-family: 'Anton', sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.key-desc {
+  color: orange;
+}
+
+.pic-show-large {
+  margin-top: 30px;
+  margin-bottom:20px;
+}
+
+.pic-show-large img {
+  width: 100%;
+}
+
+.comment-head {
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.field-txt {
+  padding: 4px 6px;
+  &.-full {
+    width: 100%;
+  }
+}
+
+.field-txtbox {
+  padding: 4px 6px;
+  height: 100px;
+  &.-full {
+    width: 100%;
+  }
+}
+
+.ui-row {
+  margin-top: 14px;
+}
+
+.comment-group {
+  margin-bottom: 20px;
+}
+
+.comment-list {
+  margin-top: 20px;
+}
+
+.comment-detail {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.comment-write {
+  font-size: 14px;
+  color: #ffffff;
+  > span {
+    color: skyblue;
+  }
+}
+
+.submit-btn {
+  margin-left: 14px;
+}
+
+.back-link {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  a {
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: orange;
+  }
+
+  span {
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 6px;
+    position: relative;
+    top: -3px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+  .sw-search {
+    display: none;
+  }
+
+  .select-list {
+    margin-left: 15px;
+    margin-top: 0px;
+  }
+
+  .search-head {
+    font-size: 20px;
+  }
+
+  .pic-title {
+    margin-top: 6px;
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .pic-show-large {
+      
+    }
+
+    .search-head {
+      &.-style-1 {
+        font-size: 26px;
+      }
+      
+    }
+
+}
